@@ -1,0 +1,206 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    
+    <title>TECHIE ISHITA</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+        
+	    
+	    	<meta name="author" content="ISHITA PANDEY">
+		<meta name="description" content="Hi, check your Python language skill with this simple quiz on the topic of string slicing." />    
+	    	<meta name="keywords" content="quiz, string, slicing, python quiz, pythonist, techie Ishita Pandey">
+
+	<!-- Og Basic Metadata -->  
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Quiz on Python Language - string slicing | check your score">
+	<meta property="og:description" content="Hi, check your Python language skill with this simple quiz on the topic of string slicing.">
+	<meta property="og:image" content="https://techieishita.in/img/qz.png">
+	<meta property="og:url" content="https://techieishita.in/quiz_pythonbasics">
+	<!-- Og Basic Metadata -->	
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #761864;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center top;
+    }
+    #intro {
+        width: 80%;
+        color: #fff;
+        position:relative;
+        margin:auto;
+    }
+
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.2; /* Changed line-height value to reduce spacing */
+        color: white; /* Added color property to change font color */
+    }
+        h4 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    #result{margin-top: 30px;
+        margin-bottom: 50px;
+        
+    }
+    
+    label {
+        display: block;
+    
+    }
+
+    input[type=radio] {
+        margin-right: 10px;
+    }
+
+    .sbn {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 600px) {
+        form {
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+         h4 {
+            font-size: 20px;
+        }
+
+        .submit {
+            font-size: 14px;
+        }
+    }
+.nav-item a{
+    font-weight: bold;
+    color: #fff;
+        font-size:1.2rem;
+
+}
+
+.custom-toggler.navbar-toggler{ 
+    border-color: #fff;
+    outline: none;
+    border-width: 2px;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+</style>
+    </head>
+    
+    
+        <body>
+    
+            
+            
+           
+
+                        <nav class="navbar navbar-expand-lg"><div class= "container text-uppercase p-2"><a class="navbar-brand font-weight-bold text-white" href="index.html"><img 
+		    src="img/logo2.png" style="height:54px;"></a><button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent"><ul class="navbar-nav ml-auto"><li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li><li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li><li class="nav-item"><a class="nav-link" href="index.html#work">Portfolio</a></li> <li class="nav-item"><a class="nav-link" href="/quiz_pythonbasics">Quiz</a></li><li class="nav-item"><a class="nav-link" href="/barplot">Charts</a></li><li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li></ul></div></div></nav>
+            
+            
+             <section id="intro">  <form><h4>Quiz on string slicing</h4><h3 id=D>Question 1: What is the result of string[2:6] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q1o1" name="answer0" value="A"> Aft</label><br><label><input type="radio" id="q1o2" name="answer0" value="B"> ftem</label><br><label><input type="radio" id="q1o3" name="answer0" value="C"> fter</label><br><label><input type="radio" id="q1o4" name="answer0" value="D"> term</label><br><h3 id=B>Question 2: Which of the following is the correct way to slice the string "Aftermath" to get "ret"?</h3><label><input type="radio" id="q2o1" name="answer1" value="A"> string[5:1:-1]</label><br><label><input type="radio" id="q2o2" name="answer1" value="B"> string[4:1:-1]</label><br><label><input type="radio" id="q2o3" name="answer1" value="C"> string[5:1:-2]</label><br><label><input type="radio" id="q2o4" name="answer1" value="D"> string[4:1:-2]</label><br><h3 id=B>Question 3: What does string[::-1] do for string = "Aftermath" in Python?</h3><label><input type="radio" id="q3o1" name="answer2" value="A"> Returns the original string</label><br><label><input type="radio" id="q3o2" name="answer2" value="B"> Reverses the string</label><br><label><input type="radio" id="q3o3" name="answer2" value="C"> Returns the string in uppercase</label><br><label><input type="radio" id="q3o4" name="answer2" value="D"> Returns the string in lowercase</label><br><h3 id=A>Question 4: What is the result of string[::2] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q4o1" name="answer3" value="A"> Atrah</label><br><label><input type="radio" id="q4o2" name="answer3" value="B"> Afemh</label><br><label><input type="radio" id="q4o3" name="answer3" value="C"> Atfth</label><br><label><input type="radio" id="q4o4" name="answer3" value="D"> Ahm</label><br><h3 id=B>Question 5: How do you slice the string "Aftermath" to get "After"?</h3><label><input type="radio" id="q5o1" name="answer4" value="A"> string[1:6]</label><br><label><input type="radio" id="q5o2" name="answer4" value="B"> string[0:5]</label><br><label><input type="radio" id="q5o3" name="answer4" value="C"> string[0:6]</label><br><label><input type="radio" id="q5o4" name="answer4" value="D"> string[1:5]</label><br><h3 id=C>Question 6: What is the result of string[3:] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q6o1" name="answer5" value="A"> ermat</label><br><label><input type="radio" id="q6o2" name="answer5" value="B"> thermath</label><br><label><input type="radio" id="q6o3" name="answer5" value="C"> ermath</label><br><label><input type="radio" id="q6o4" name="answer5" value="D"> After</label><br><h3 id=B>Question 7: What is the result of string[-3:-1] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q7o1" name="answer6" value="A"> ma</label><br><label><input type="radio" id="q7o2" name="answer6" value="B"> at</label><br><label><input type="radio" id="q7o3" name="answer6" value="C"> he</label><br><label><input type="radio" id="q7o4" name="answer6" value="D"> te</label><br><h3 id=A>Question 8: What is the result of string[-1::-1] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q8o1" name="answer7" value="A"> htamretfA</label><br><label><input type="radio" id="q8o2" name="answer7" value="B"> htamretf</label><br><label><input type="radio" id="q8o3" name="answer7" value="C"> tamretf</label><br><label><input type="radio" id="q8o4" name="answer7" value="D"> tamretfA</label><br><h3 id=D>Question 9: What is the result of string[6:1:-2] for string = "Aftermath" in Python?</h3><label><input type="radio" id="q9o1" name="answer8" value="A"> mef</label><br><label><input type="radio" id="q9o2" name="answer8" value="B"> tme</label><br><label><input type="radio" id="q9o3" name="answer8" value="C"> mht</label><br><label><input type="radio" id="q9o4" name="answer8" value="D"> art</label><br><h3 id=C>Question 10: How do you slice the string "Aftermath" to get "mat"?</h3><label><input type="radio" id="q10o1" name="answer9" value="A"> string[3:6]</label><br><label><input type="radio" id="q10o2" name="answer9" value="B"> string[4:7]</label><br><label><input type="radio" id="q10o3" name="answer9" value="C"> string[5:8]</label><br><label><input type="radio" id="q10o4" name="answer9" value="D"> string[3:6]</label><br><button class="sbn" id="submit-btn" type="button" onclick="returnScore()">Submit</button><div id="result"></div></form>
+</section>
+
+
+<script type = "text/javascript">
+
+const collection = document.getElementsByTagName("h3");
+let answers = []
+for (let i = 0; i < collection.length; i++) {
+  answers.push(collection[i].id);
+}
+
+
+    tot = answers.length;
+
+function getCheckedValue( radioName ){
+    var radios = document.getElementsByName( radioName ); // Get radio group by-name
+    for(var y=0; y<radios.length; y++)
+      if(radios[y].checked) return radios[y].value; // return the checked value
+}
+
+function getScore(){
+  var score = 0;
+  for (var i=0; i<tot; i++){
+ console.log(getCheckedValue("answer"+i) + "response")
+ console.log(answers[i] + "correct")
+
+    if(getCheckedValue("answer"+i)===answers[i]) score += 1; // increment only
+
+}
+  return score;
+
+}
+
+function returnScore(){
+
+document.getElementById("result").innerHTML = "Your score is "+ getScore() +"/" + tot + "." + "<br/><br/>" +"Correct answers are ";
+
+  alert("Your score is "+ getScore() +"/"+ tot);
+
+  for (var i=0; i<tot; i++){
+  bb=i+1;
+
+    document.getElementById("result").innerHTML += bb + " - " +answers[i];
+    if (i<9){document.getElementById("result").innerHTML +=", ";}
+}
+  
+}
+
+</script>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        </body>
+    </html>
+
+ 
