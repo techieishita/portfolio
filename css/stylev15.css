@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {scroll-behavior: smooth;}
+
+
+
+a{ text-decoration: none;
+     color: #c7b299;
+}
+
+a:hover{ text-decoration: none }
+
+li{ text-decoration: none }
+
+p
+{
+    line-height: 1.6;
+    font-weight: 400;
+
+
+}
+.figure-caption
+{
+    line-height: 1.2;
+    font-weight: 200;
+    color: white;
+   
+}
+body{
+    background-color:#170027;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #170027;       /*  background-image: #1e002b, url("../img/header.png");    526D82 9DB2BF DDE6ED */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    position: fixed;
+}
+
+
+
+
+.nav-item a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+        font-size:1.2rem;
+
+}
+
+.custom-toggler.navbar-toggler{ 
+    border-color: #fff;
+    outline: none;
+    border-width: 2px;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+
+.sep{
+    
+    width: 100%;
+    height: 3px;
+    background-color: #c7b299;
+    color: #c7b299;
+    border: 0 none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#foot .sep{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+
+.button-primary {
+    display: inline-block;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #CC9933;
+    border-radius: 5px;
+    background: #CC9933;
+    text-align: center;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+.header-button2 a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-button2 a:hover{
+    border-color: aliceblue;
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+
+
+.extra-div{
+       padding: 30px!important;
+    border-radius: 10px;
+    transition: 0.1s;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid #6d6256;
+    margin: auto;
+    margin-bottom: 40px;
+        width: 95%;
+
+}
+
+.extra-div h2{
+    font-size: 1rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.extra-div:hover{
+    border: 4px solid #6d6256;
+
+
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(0,168,255,0.5);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 200px;
+
+}
+/************* Footer ************/
+
+
+.fa{
+     color: rgba(199, 178, 153, .7);
+}
+
+
+
+
+.wrapper {
+  display: none;
+}
+/* 1. Intro Keyframe
+--------------------------------------- */
+#intro {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.name {
+  font-size: 35px;
+  letter-spacing: 12px;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.byline { 
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+        margin: 20px 0 50px 0;
+    color: #c7b299;
+
+}
+.header-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-button a:hover{
+    color: #50d1c0;
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.sectionhead{
+        color: #fff;
+text-transform: uppercase;
+    margin: 20px;
+}
+
+
+.title-sm {
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 400ms ease-in-out;
+  margin: 2rem auto;
+  text-align: center;
+     color: #fff;
+}
+
+.bar {
+  width: 100%;
+  margin: 2em auto;
+}
+
+.skill {
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+}
+
+.speech-bubble {
+  line-height: 2em;
+  position: absolute;
+  top: -2.7em;
+  text-align: center;
+  min-width: 3em;
+  border-radius: 0.3em;
+  display: none;
+}
+
+
+.javasc{
+  left: calc(95% - 1.5em);
+}
+
+.seo {
+  left: calc(85% - 1.5em);
+}
+.htmlcss,
+.illustrator {
+  left: calc(90% - 1.5em);
+}
+
+.angular {
+  left: calc(95% - 1.5em);
+}
+
+.speech-bubble:after {
+  border: 0.5em solid transparent;
+  content: "";
+  margin-left: -0.5em;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.bar-outer {
+  height: 1.5em;
+  background: #EEEEEE;
+  position: relative;
+  border-radius: 0.3em;
+}
+
+.bar-inner {
+  width: 0;
+  height: 1.5em;
+  border-radius: 0.3em;
+}
+
+.hc, .htmlcss {
+  background: #aaaaaa;
+}
+
+.htmlcss:after {
+  border-top-color: #aaaaaa;
+}
+
+.jj, .javasc {
+  background: #888888;
+}
+
+.javasc:after {
+  border-top-color: #888888;
+}
+
+.il, .illustrator {
+  background: #666666;
+}
+
+.illustrator:after {
+  border-top-color: #666666;
+}
+
+.ag, .angular {
+  background: #444444;
+}
+
+.angular:after {
+  border-top-color: #444444;
+}
+
+.se, .seo {
+  background: #333333;
+}
+
+.seo:after {
+  border-top-color: #333333;
+}
+
+
+
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+width: 100%;  margin: 0 auto;
+    color: #c7b299;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+    background-color: #c7b299;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timecontainer {
+  padding: 0px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+    margin-bottom: 25px;
+}
+
+/* The circles on the timeline */
+.timecontainer::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: #c7b299;
+  border: 4px solid #fff;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.timeleft {
+  left: 0;
+}
+
+/* Place the container to the right */
+.timeright {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.timeleft::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 19px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #c7b299;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #252525;
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeright::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 19px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #c7b299;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #252525 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.timeright::after {
+  left: -13px;
+}
+
+/* The actual content */
+.timecontent {
+  padding: 20px 30px;
+    background-color: rgba(0,0,0,0.4);
+  position: relative;
+  border-radius: 6px;
+        border: 1px solid #6d6256;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timecontainer {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .timecontainer::before {
+  left: 60px;
+  border: medium solid blue;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #252525 transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .timeleft::after, .timeright::after {
+  left: 18px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .timeright {
+  left: 0%;
+  }
+}
+
+
+
+.contact{padding:0 15px}@media (min-width: 50em){.contact{margin-bottom:80px}}.contact ol,.contact li{margin:0;padding:0;list-style:none}.contact ol:after,.contact li:after{content:"";display:table;clear:both}.contact .element.text{width:100%;margin-bottom:11px}@media (min-width: 50em){.contact .element.text{width:49.1525423729%;float:left;margin-bottom:1.6949152542%}.contact .element.text:nth-child(2n+1){margin-left:0;margin-right:-100%;clear:both;margin-left:0}.contact .element.text:nth-child(2n+2){margin-left:50.8474576271%;margin-right:-100%;clear:none}}.contact textarea{min-height:108px;margin-bottom:1.6949152542%}.contact .buttons{text-align:center}.contact input[type='text'].highlight,.contact input[type='email'].highlight,.contact textarea.highlight{border:1px solid red}.contact .button-submit{padding:9px 34px 7px;   margin-bottom:3%; color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;}.processing{width:100%;text-align:center}input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+    color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    outline: none;
+    padding: 10px;
+}textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+#nonanimation{
+     position: absolute;
+  top: 180%;
+    width: 100%;
+    overflow: hidden ;
+    
+    
+}
+
+
+#about {
+
+  width: 100%;
+    color: white;
+}
+
+#services {
+ 
+  width: 100%;
+    text-align: center;
+}
+
+#work {
+  
+  width: 100%;
+    text-align: center;
+}
+
+#foot{
+    
+    width: 100%;
+    
+ 
+
+}
+section{
+    
+       width: 100%;
+    margin-top: 90px;
+        margin-bottom: 90px;
+
+}
+
+
