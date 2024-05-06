@@ -156,6 +156,31 @@ body{
 }
 
 
+.w-div{
+       padding: 15px!important;
+    border-radius: 10px;
+    transition: 0.1s;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid #6d6256;
+    margin: auto;
+    margin-bottom: 40px;
+        width: 95%;
+
+}
+
+.w-div h2{
+    font-size: 1rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+.w-div:hover{
+    border: 4px solid #6d6256;
+
+
+}
 #myBtn {
   display: none;
   position: fixed;
